@@ -9,11 +9,7 @@ a < b - если переменная a меньше b
 a > b - если переменная b меньше a
 
 
-Задача №2
 
-Необходимо создать две целочисленные переменные (a, b), присвоить произвольные значения переменным на ваш выбор и вывести следующие строки:
-maybe a and b are even - если сумма переменных четная
-some variable is odd - если сумма переменных нечетная
 
 
 Задача №3
@@ -65,17 +61,18 @@ public class Task_3_1 {
 
         int b = 3;
 
-        if (a==b){
-            System.out.println("a == b");
-        if (a<b){
-            System.out.println("a<b");
-        if (a>b){
+        if (a == b){
+            System.out.println("a == b");}
+        if (a < b){
+            System.out.println("a<b");}
+        if (a > b)
+        {
             System.out.println("a>b");
         }
         }
 
-        }
+
 
     }
 
-}
+
