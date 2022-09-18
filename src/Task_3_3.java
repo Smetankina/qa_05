@@ -14,29 +14,29 @@ import java.util.Scanner;
 public class Task_3_3 {
 
     public static void main(String[] args) {
-        Scanner a = new Scanner(System.in);
-        System.out.println("Введите число:");
-        int number = a.nextInt();
 
-        if(number > 10){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите число:");
+
+        int number = sc.nextInt();
+
+        System.out.println("Спасибо! Вы ввели число " + number);
+
+        if (number>10){
             System.out.println("больше 10");
         }
-
-        if(number < 100){
+        if (number<100){
             System.out.println("меньше 100");
         }
-        if(number % 2 > 20){
+        if (number/2>20){
             System.out.println("результат деления на 2 больше 20");
         }
-        if(number >= 5 && number <= 40){
+        if (number>=5&&number<=40) {
             System.out.println("значение переменной между 5 и 40 включительно");
         }
-        if(number > 40 || number < 5){
-            System.out.println("значение переменной меньше 5 или больше 40");
+        if (number<5||number>40){
+                System.out.println("значение переменной меньше 5 или больше 40");
         }
-
-
-
 
     }
 }
